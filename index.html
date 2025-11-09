@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vedic Wisdom Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+      .font-lora {
+        font-family: 'Lora', serif;
+      }
+      
+      /* Theme CSS Variables */
+      .theme-surya {
+        --bg-start: #FFF8E1;
+        --bg-end: #FFE0B2;
+        --container-bg: #ffffff;
+        --container-border: #ffffff;
+        --text-main: #1f2937;
+        --text-muted: #9ca3af;
+        --text-header: #78350f;
+        --text-header-sub: #92400e;
+        --text-accent: #b45309;
+        --accent-start: #f59e0b;
+        --accent-end: #f97316;
+        --accent-color: #d97706;
+        --user-bubble-bg: #d97706;
+        --user-bubble-text: #ffffff;
+        --model-bubble-bg: #ffffff;
+        --divider-color: #e5e7eb;
+        --input-bg: #ffffff;
+        --hover-bg: #fef3c7;
+        --subtle-border: #fdba74;
+        --sacred-text-bg: #fef3c7;
+        --sacred-text-color: #78350f;
+        --suggestion-bg: #fffbeb;
+        --suggestion-hover-bg: #fef3c7;
+      }
+
+      .theme-chandra {
+        --bg-start: #0f172a;
+        --bg-end: #1e3a8a;
+        --container-bg: #1e293b;
+        --container-border: #475569;
+        --text-main: #f1f5f9;
+        --text-muted: #94a3b8;
+        --text-header: #bfdbfe;
+        --text-header-sub: #93c5fd;
+        --text-accent: #60a5fa;
+        --accent-start: #60a5fa;
+        --accent-end: #22d3ee;
+        --accent-color: #3b82f6;
+        --user-bubble-bg: #3b82f6;
+        --user-bubble-text: #ffffff;
+        --model-bubble-bg: #334155;
+        --divider-color: #475569;
+        --input-bg: #334155;
+        --hover-bg: #334155;
+        --subtle-border: #60a5fa;
+        --sacred-text-bg: #2563eb;
+        --sacred-text-color: #eff6ff;
+        --suggestion-bg: #1e293b;
+        --suggestion-hover-bg: #334155;
+      }
+
+      .theme-vana {
+        --bg-start: #f0fdf4;
+        --bg-end: #d1fae5;
+        --container-bg: #ffffff;
+        --container-border: #ffffff;
+        --text-main: #1f2937;
+        --text-muted: #9ca3af;
+        --text-header: #14532d;
+        --text-header-sub: #166534;
+        --text-accent: #15803d;
+        --accent-start: #22c55e;
+        --accent-end: #16a34a;
+        --accent-color: #16a34a;
+        --user-bubble-bg: #16a34a;
+        --user-bubble-text: #ffffff;
+        --model-bubble-bg: #ffffff;
+        --divider-color: #e5e7eb;
+        --input-bg: #ffffff;
+        --hover-bg: #d1fae5;
+        --subtle-border: #86efac;
+        --sacred-text-bg: #d1fae5;
+        --sacred-text-color: #14532d;
+        --suggestion-bg: #f0fdf4;
+        --suggestion-hover-bg: #d1fae5;
+      }
+
+      .theme-akasha {
+        --bg-start: #1e1b4b;
+        --bg-end: #4c1d95;
+        --container-bg: #2e1065;
+        --container-border: #5b21b6;
+        --text-main: #f5f3ff;
+        --text-muted: #c4b5fd;
+        --text-header: #ddd6fe;
+        --text-header-sub: #c4b5fd;
+        --text-accent: #a78bfa;
+        --accent-start: #8b5cf6;
+        --accent-end: #a855f7;
+        --accent-color: #8b5cf6;
+        --user-bubble-bg: #7c3aed;
+        --user-bubble-text: #ffffff;
+        --model-bubble-bg: #5b21b6;
+        --divider-color: #7c3aed;
+        --input-bg: #5b21b6;
+        --hover-bg: #5b21b6;
+        --subtle-border: #a78bfa;
+        --sacred-text-bg: #7c3aed;
+        --sacred-text-color: #f5f3ff;
+        --suggestion-bg: #4c1d95;
+        --suggestion-hover-bg: #5b21b6;
+      }
+
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

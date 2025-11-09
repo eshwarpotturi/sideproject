@@ -1,0 +1,5 @@
+{
+  "name": "Vedic Wisdom Chatbot",
+  "description": "An AI chatbot that draws its knowledge exclusively from 14 ancient Hindu texts, including the Vedas, Epics, and historical scriptures. It answers questions by providing two illustrative examples from these sacred sources.",
+  "requestFramePermissions": []
+}
